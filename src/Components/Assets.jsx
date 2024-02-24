@@ -21,6 +21,16 @@ import youtube from "/YouTube.png";
 import soil from "/soil.webp";
 import machine from "/machine.webp";
 import boots from "/boots.webp";
+import kid from "/kid.webp";
+import goat from "/goat.webp";
+import maize from "/maize.webp";
+import blog from "/blog.webp";
+import fruits from "/fruits.webp";
+import blog1 from "/blog1.webp";
+import blog2 from "/blog2.webp";
+import blog3 from "/blog3.webp";
+import blog4 from "/blog4.webp";
+import blog5 from "/blog5.webp";
 
 
 export {
@@ -46,5 +56,14 @@ export {
     facebook,
     machine,
     boots, 
-    soil
+    soil, 
+    goat,
+    kid,
+    maize,
+    blog,
+    blog1,
+    blog2,
+    blog3,
+    blog4,
+    blog5, fruits
 }
