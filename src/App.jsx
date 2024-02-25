@@ -6,6 +6,7 @@ import Shop from './Pages/Shop';
 import './App.css'
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
+import Contact from './Pages/Contact';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
           <Route path='project' element={<Project />}/>
           <Route path='blog' element={<Blog />}/>
           <Route path='shop' element={<Shop />}/>
+          <Route path='contact' element={<Contact />}/>
         </Routes>
       </main>
       <Footer />

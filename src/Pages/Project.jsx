@@ -1,5 +1,5 @@
-import { Grid, GridItem, Heading, Container, Text } from "@chakra-ui/react";
-import { boots, soil, machine, kid, goat, maize } from "../Components/Assets";
+import { Grid, GridItem, Heading, Text } from "@chakra-ui/react";
+import { boots, soil, machine, kid, goat, maize, sheep } from "../Components/Assets";
 
 
 export default function Project() {
@@ -9,10 +9,10 @@ export default function Project() {
 
     <Grid  py="150px">
 
-      <Heading bg="green" py="20px" mx="0" color="white" textAlign="center"> Our Projects</Heading>
+      <Heading bg="grun.main" py="20px" mx="0" color="white" textAlign="center"> Our Projects</Heading>
       <Heading as="h3" textAlign="center" py="30px">The Soya Project - Kaduna State</Heading>
       
-      <Grid templateColumns="repeat(6, 1fr" align="center" rowGap="70">
+      <Grid templateColumns="repeat(6, 1fr)" align="center" rowGap="70">
 
         <GridItem colSpan="6">
           <img src={ machine } />
@@ -66,7 +66,7 @@ export default function Project() {
         </GridItem>
 
         <GridItem colSpan={{ base: 6, lg: 3}}>
-            <img src={ goat } width={460}/>
+            <img src={ sheep } width={460}/>
         </GridItem>
 
       </Grid>

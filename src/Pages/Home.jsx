@@ -7,13 +7,13 @@ export default function Home() {
     <Flex  p="100px" bgImage="url('/hero.webp')"  justifyContent="center" alignItems="center" textAlign="center" flexDirection="column">
 
       <Box>
-      <Heading as="h1" fontSize="8xl" color="green.600"> Zenith </Heading>
+      <Heading as="h1" pt="10" fontSize="7.7rem" fontWeight="700" lineHeight="0.75" fontFamily="brand" color="grun.main"> Zenith </Heading>
       <Heading fontSize="6xl" fontWeight="400" > agro-allied </Heading>
       <Heading fontSize="5xl" fontWeight="900"> cooperative</Heading>
-      <Heading fontSize="6xl" fontWeight="100" letterSpacing="2px"> society </Heading>
+      <Heading fontSize="6xl" fontFamily="rale" fontWeight="100" letterSpacing="12px"> society </Heading>
       </Box>
 
-      <Button px="30px" py="10px" my="10" colorScheme="green" borderRadius="25px">join us</Button>
+      <Button px="30px" py="10px" my="10" bg="grun.main" color="white" borderRadius="25px">join us</Button>
 
    </Flex>
 
@@ -32,7 +32,7 @@ export default function Home() {
           We got 5 hectares of farm land in Kaduna, Nigeria. Cultivated it and we realized 29 bags of soya beans. We made 10% profit from this project. The project lasted from July to November.
         </Text>
 
-        <Button px="8" my="10" colorScheme="green" fontSize="20px" borderRadius="25px">read more</Button>
+        <Button px="8" my="10" bg="grun.main" color="white" fontSize="20px" borderRadius="25px">read more</Button>
       </GridItem>
     </SimpleGrid>
 
@@ -47,7 +47,7 @@ export default function Home() {
           We got 5 hectares of farm land in Kaduna, Nigeria. Cultivated it and we realized 29 bags of soya beans. We made 10% profit from this project. The project lasted from July to November.
         </Text>
 
-        <Button px="8" my="10" colorScheme="green" fontSize="20px" borderRadius="25px">read more</Button>
+        <Button px="8" my="10" bg="grun.main" color="white" fontSize="20px" borderRadius="25px">read more</Button>
       </GridItem>
     </SimpleGrid>
 
@@ -64,7 +64,7 @@ export default function Home() {
 <Card bg="inherit" boxShadow="none">
     <CardBody >
       <img src={ night_farm } alt="night farming" />
-      <Text color="green">Farming</Text>
+      <Text color="grun.main">Farming</Text>
     </CardBody>
     <CardHeader fontSize="26px" fontWeight="600">4-Important things to do while farming at night</CardHeader>
     <CardFooter color="gray.400" fontSize="12px">25th Oct., 2024</CardFooter>
@@ -73,7 +73,7 @@ export default function Home() {
 <Card bg="inherit" boxShadow="none" >
     <CardBody >
       <img src={ veggies } alt="veggies" />
-      <Text color="green">Farming</Text>
+      <Text color="grun.main">Farming</Text>
     </CardBody>
     <CardHeader fontSize="26px" fontWeight="600">Soya Bean or Maize Farming?</CardHeader>
     <CardFooter color="gray.400" fontSize="12px">2nd Nov., 2024</CardFooter>
@@ -82,7 +82,7 @@ export default function Home() {
 <Card bg="inherit" boxShadow="none" >
     <CardBody >
       <img src={ harvest } alt="harvesting crops" />
-      <Text color="green">Farming</Text>
+      <Text color="grun.main">Farming</Text>
     </CardBody>
     <CardHeader fontSize="26px" fontWeight="600">10 Benefits of Organic Farming</CardHeader>
     <CardFooter color="gray.400" fontSize="12px">25th Oct., 2024</CardFooter>
@@ -101,7 +101,7 @@ export default function Home() {
         <Box pos=" relative ">
         <img src={ beans } />
         <Text 
-        bg="green.400" 
+        bg="grun.main" 
         border="8px solid white" 
         py="8px" 
         px="12px" 
@@ -114,7 +114,7 @@ export default function Home() {
           25% discount
          </Text>
         <Text 
-        bg="green.400" 
+        bg="grun.main" 
         border="8px solid white" 
         py="8px" 
         px="12px" 
@@ -149,7 +149,7 @@ export default function Home() {
         <Box pos=" relative ">
         <img src={ onions } />
         <Text 
-        bg="green.400" 
+        bg="grun.main" 
         border="8px solid white" 
         py="8px" 
         px="12px" 
@@ -163,7 +163,7 @@ export default function Home() {
           25% discount</Text>
 
         <Text 
-        bg="green.400" 
+        bg="grun.main" 
         border="8px solid white" 
         py="8px" 
         px="12px" 
@@ -200,7 +200,7 @@ export default function Home() {
         <Box pos="relative">
         <img src={ strawberries } />
         <Text 
-        bg="green.400" 
+        bg="grun.main" 
         border="8px solid white" 
         py="8px" 
         px="12px" 
@@ -208,13 +208,13 @@ export default function Home() {
         fontWeight="500" 
         pos="absolute" 
         borderRadius="25px"
-        bottom="20"
-        left="-10"
+        bottom="20%"
+        left="-10%"
         >
           25% discount</Text>
 
         <Text 
-        bg="green.400" 
+        bg="grun.main" 
         border="8px solid white" 
         py="8px" 
         px="12px" 
@@ -251,7 +251,7 @@ export default function Home() {
         <Box pos="relative">
         <img src={ potatoes } />
         <Text 
-        bg="green.400" 
+        bg="grun.main" 
         border="8px solid white" 
         py="8px" 
         px="12px" 
@@ -259,13 +259,13 @@ export default function Home() {
         fontWeight="500" 
         pos="absolute" 
         borderRadius="25px"
-        bottom="-5"
-        right="0"
+        bottom="0.1%"
+        right="0%"
         >
           25% discount</Text>
 
         <Text 
-        bg="green.400" 
+        bg="grun.main" 
         border="8px solid white" 
         py="8px" 
         px="12px" 
@@ -297,7 +297,7 @@ export default function Home() {
        
       </GridItem>
 
-      <GridItem my="16px" mx="40px"  py="8px" align="center" borderRadius="30px" bg="green.400" colSpan="4">
+      <GridItem my="16px" mx="40px"  py="8px" align="center" borderRadius="30px" bg="grun.main" colSpan="4">
           <Button fontWeight="700" fontSize="20px" color="white" bg ="inherit" href="#">See More</Button>
       </GridItem>
     

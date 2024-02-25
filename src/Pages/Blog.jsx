@@ -1,10 +1,10 @@
-import { Grid, GridItem, Container, Heading, Flex, Text, Card, Link, CardBody, CardFooter, Input, Box, Stack, HStack, Spacer } from "@chakra-ui/react";
+import { Grid, GridItem, Container, Heading, Flex, Text, Card, Link, CardBody, CardFooter, Input, Box, Stack, HStack } from "@chakra-ui/react";
 import { blog, blog1, blog2, blog3, blog4, farmland, fruits, soil } from "../Components/Assets";
 
 export default function Blog() {
   return (
     <>
-   <Container maxW="100%" px="100">
+   <Container maxW="100%" px="100" py="20">
     <Flex gap={{ base: "0", lg: "20" }} align="center" justify="center" flexDirection={{ base: "column-reverse", lg: "row" }}>
       
       <Box flexBasis="450px">
@@ -12,8 +12,8 @@ export default function Blog() {
       <Heading display="flex" fontSize="55px" py="5" gap="10px">the <Text as="span" fontWeight="300" fontStyle="italic">Blog</Text></Heading>
       <Text fontSize="20px" pb="50px">We got 5 hectares of farm land in Kaduna, Nigeria. Cultivated it and we realized 29 bags of soya beans.</Text>
 
-<Box maxW="250px">
-      <Text display="flex" fontSize="20px" gap="5px">Subscribe to our <Text as="span" color="green" fontWeight="400">Newsletter</Text></Text>
+<Box maxW="300px">
+      <HStack display="flex" fontSize="20px"><Text>Subscribe to our </Text><Text as="span" color="grun.main" fontWeight="400">Newsletter</Text></HStack>
       <Input my="5" bg="gray.300" placeholder="e-mail"/>
 </Box>
 
@@ -47,7 +47,7 @@ export default function Blog() {
       </CardBody>
 
       <CardFooter color="white" flexDirection="column" gap="10px" px="8">
-        <Link color="green" fontSize="20px">Read More...</Link>
+        <Link color="grun.main" fontSize="20px">Read More...</Link>
         <Text pb="4" fontSize="20px">29th Sept 2024</Text>
       </CardFooter>
     </Card>
@@ -64,7 +64,7 @@ export default function Blog() {
       </CardBody>
 
       <CardFooter color="white" flexDirection="column" gap="10px" px="8">
-        <Link color="green" fontSize="20px">Read More...</Link>
+        <Link color="grun.main" fontSize="20px">Read More...</Link>
         <Text pb="4" fontSize="20px">29th Sept 2024</Text>
       </CardFooter>
     </Card>
@@ -92,7 +92,7 @@ export default function Blog() {
           </Text>
           
           <HStack justify="space-between">
-          <Text as="span" color="green" fontSize="20px" spacing="20px">29th Sept 2024</Text>
+          <Text as="span" color="grun.main" fontSize="20px" spacing="20px">29th Sept 2024</Text>
           <Link color="red" fontSize="20px">Read More...</Link>
           </HStack>
         </Box>
@@ -112,7 +112,7 @@ export default function Blog() {
           </Text>
           
           <HStack justify="space-between">
-          <Text as="span" color="green" fontSize="20px" spacing="20px">29th Sept 2024</Text>
+          <Text as="span" color="grun.main" fontSize="20px" spacing="20px">29th Sept 2024</Text>
           <Link color="red" fontSize="20px">Read More...</Link>
           </HStack>
         </Box>
@@ -132,7 +132,7 @@ export default function Blog() {
           </Text>
           
           <HStack justify="space-between">
-          <Text as="span" color="green" fontSize="20px" spacing="20px">29th Sept 2024</Text>
+          <Text as="span" color="grun.main" fontSize="20px" spacing="20px">29th Sept 2024</Text>
           <Link color="red" fontSize="20px">Read More...</Link>
           </HStack>
         </Box>
@@ -152,7 +152,7 @@ export default function Blog() {
           </Text>
           
           <HStack justify="space-between">
-          <Text as="span" color="green" fontSize="20px" spacing="20px">29th Sept 2024</Text>
+          <Text as="span" color="grun.main" fontSize="20px" spacing="20px">29th Sept 2024</Text>
           <Link color="red" fontSize="20px">Read More...</Link>
           </HStack>
         </Box>
@@ -165,52 +165,52 @@ export default function Blog() {
     <Stack bg="gray.200" py="20" px={{ base: "5", lg: "10" }}>
       <Heading as="h5">Old Posts</Heading>
       <HStack py="2">
-        <Box width="20px" height="20px" borderRadius="50%" bg="green.400"></Box>
+        <Box width="24px" height="20px" borderRadius="50%" bg="grun.main"></Box>
         <Text px="5" fontWeight="700" fontSize="20px" lineHeight="1.5">Prices of Beans are skyrocketting by the day</Text>
       </HStack>
 
 
       <HStack py="2">
-        <Box width="20px" height="20px" borderRadius="50%" bg="green.400"></Box>
+        <Box width="24px" height="20px" borderRadius="50%" bg="grun.main"></Box>
         <Text px="5" fontWeight="700" fontSize="20px" lineHeight="1.5">Prices of Beans are skyrocketting by the day</Text>
       </HStack>
       
       
       <HStack py="2">
-        <Box width="20px" height="20px" borderRadius="50%" bg="green.400"></Box>
+        <Box width="24px" height="20px" borderRadius="50%" bg="grun.main"></Box>
         <Text px="5" fontWeight="700" fontSize="20px" lineHeight="1.5">Prices of Beans are skyrocketting by the day</Text>
       </HStack>
       
       
       <HStack py="2">
-        <Box width="20px" height="20px" borderRadius="50%" bg="green.400"></Box>
+        <Box width="24px" height="20px" borderRadius="50%" bg="grun.main"></Box>
         <Text px="5" fontWeight="700" fontSize="20px" lineHeight="1.5">Prices of Beans are skyrocketting by the day</Text>
       </HStack>
 
 
       <HStack py="2">
-        <Box width="20px" height="20px" borderRadius="50%" bg="green.400"></Box>
+        <Box width="24px" height="20px" borderRadius="50%" bg="grun.main"></Box>
         <Text px="5" fontWeight="700" fontSize="20px" lineHeight="1.5">Prices of Beans are skyrocketting by the day</Text>
       </HStack>
 
 
        <HStack py="2">
-        <Box width="20px" height="20px" borderRadius="50%" bg="green.400"></Box>
+        <Box width="24px" height="20px" borderRadius="50%" bg="grun.main"></Box>
         <Text px="5" fontWeight="700" fontSize="20px" lineHeight="1.5">Prices of Beans are skyrocketting by the day</Text>
       </HStack>
 
        <HStack py="2">
-        <Box width="20px" height="20px" borderRadius="50%" bg="green.400"></Box>
+        <Box width="24px" height="20px" borderRadius="50%" bg="grun.main"></Box>
         <Text px="5" fontWeight="700" fontSize="20px" lineHeight="1.5">Prices of Beans are skyrocketting by the day</Text>
       </HStack>
 
        <HStack py="2">
-        <Box width="20px" height="20px" borderRadius="50%" bg="green.400"></Box>
+        <Box width="24px" height="20px" borderRadius="50%" bg="grun.main"></Box>
         <Text px="5" fontWeight="700" fontSize="20px" lineHeight="1.5">Prices of Beans are skyrocketting by the day</Text>
       </HStack>
 
        <HStack py="2">
-        <Box width="20px" height="20px" borderRadius="50%" bg="green.400"></Box>
+        <Box width="24px" height="20px" borderRadius="50%" bg="grun.main"></Box>
         <Text px="5" fontWeight="700" fontSize="20px" lineHeight="1.5">Prices of Beans are skyrocketting by the day</Text>
       </HStack>
     </Stack>

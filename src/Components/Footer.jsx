@@ -11,7 +11,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <Grid bg="green.400" p="16" color="white" templateColumns="repeat(4, 1fr)" justify="center" gap={{ base: 20, lg: 80 }}>
+    <Grid bg="grun.footer" p="16" color="white" templateColumns="repeat(4, 1fr)" justify="center" gap={{ base: 20, lg: 80 }}>
        
         <GridItem colSpan={{ base: 4, lg: 2}} justify="center" >
 
@@ -21,7 +21,7 @@ export default function Footer() {
             </Box>
 
             <Box>
-                <Heading as="h1" fontSize="4xl" color="green.00"> Zenith </Heading>
+                <Heading as="h1" fontSize="4xl" fontFamily="brand"> Zenith </Heading>
                 <Heading fontSize="2xl" fontWeight="400" > agro-allied </Heading>
                 <Heading fontSize="2xl" fontWeight="900"> cooperative</Heading>
                 <Heading fontSize="3xl" fontWeight="100" letterSpacing="2px"> society </Heading>
