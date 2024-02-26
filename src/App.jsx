@@ -3,7 +3,6 @@ import Home from './Pages/Home';
 import Project from './Pages/Project';
 import Blog from './Pages/Blog';
 import Shop from './Pages/Shop';
-import './App.css'
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
 import Contact from './Pages/Contact';
