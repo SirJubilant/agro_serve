@@ -24,7 +24,7 @@ export default function Footer() {
                 <Heading as="h1" fontSize="4xl" fontFamily="brand"> Zenith </Heading>
                 <Heading fontSize="2xl" fontWeight="400" > agro-allied </Heading>
                 <Heading fontSize="2xl" fontWeight="900"> cooperative</Heading>
-                <Heading fontSize="3xl" fontWeight="100" letterSpacing="2px"> society </Heading>
+                <Heading fontSize="2xl" fontWeight="100" fontFamily="rale" letterSpacing="12px"> society </Heading>
             </Box>
             </Flex>
                 <HStack >
